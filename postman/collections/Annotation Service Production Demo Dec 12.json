@@ -1,15 +1,15 @@
 {
 	"info": {
-		"_postman_id": "7045d2ea-b08f-47eb-87c2-651ebbef63ec",
+		"_postman_id": "43ff7d17-97a5-4d53-a5b5-dbecf92cf627",
 		"name": "Annotation Service Production Demo Dec 12",
 		"description": "Schema Generated and maintained by API Observability service",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "1255604-7045d2ea-b08f-47eb-87c2-651ebbef63ec"
+		"_uid": "1255604-43ff7d17-97a5-4d53-a5b5-dbecf92cf627"
 	},
 	"item": [
 		{
 			"name": "/comments/count",
-			"id": "13171dc0-5815-4481-969a-b955c4e45f48",
+			"id": "6ef75c10-a6df-4f62-abb1-a326b66b51d5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -134,7 +134,7 @@
 			},
 			"response": [
 				{
-					"id": "c5c9fc23-366f-4c3b-be03-6938f8bcdee8",
+					"id": "b1a9d275-b5d8-4ac4-a06c-29ffa7a2a204",
 					"name": "OK",
 					"originalRequest": {
 						"method": "GET",
@@ -258,6 +258,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -292,7 +293,7 @@
 					"body": ""
 				},
 				{
-					"id": "b55416e3-1481-4ccd-b137-481c8c19e5a6",
+					"id": "6d552700-96af-4446-b0c4-029ba59ef703",
 					"name": "Forbidden",
 					"originalRequest": {
 						"method": "GET",
@@ -416,6 +417,7 @@
 					"status": "Forbidden",
 					"code": 403,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -450,7 +452,7 @@
 					"body": ""
 				},
 				{
-					"id": "fa89c456-4cfd-446e-a927-a169dad105aa",
+					"id": "1047e531-f3a4-4986-aaa7-69ef577aaac2",
 					"name": "Internal Server Error",
 					"originalRequest": {
 						"method": "GET",
@@ -574,6 +576,7 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -611,7 +614,7 @@
 		},
 		{
 			"name": "/:entityType/:entityId/discussions/visibility",
-			"id": "627cdc73-2298-408d-8ec8-4be5ce95d588",
+			"id": "0239d698-fc01-47f9-ba18-8a927c3739c2",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -706,7 +709,7 @@
 			},
 			"response": [
 				{
-					"id": "2bcc260d-0e6b-48ff-be54-d7616e19f95d",
+					"id": "5547e226-07b6-45b5-b642-923c54eaf99e",
 					"name": "OK",
 					"originalRequest": {
 						"method": "POST",
@@ -800,6 +803,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -837,7 +841,7 @@
 		},
 		{
 			"name": "/:entityType/:entityId/discussions/visibility",
-			"id": "127705ef-6ed9-4b91-bb9f-526006b7c182",
+			"id": "6bdb5675-e0fe-44d5-9c06-ac7ca81cc6fd",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -928,7 +932,7 @@
 			},
 			"response": [
 				{
-					"id": "0bc620ea-423e-4703-820c-ca869faa0590",
+					"id": "1e3f4d4d-8c98-4372-aff0-04985abd716e",
 					"name": "OK",
 					"originalRequest": {
 						"method": "GET",
@@ -1018,6 +1022,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -1055,7 +1060,7 @@
 		},
 		{
 			"name": "/annotation/:id/resolve",
-			"id": "bdad8d82-5b85-4956-bc0b-4ab814e2128b",
+			"id": "6c8b041e-dc40-4d90-9908-9a79df890658",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -1124,7 +1129,7 @@
 			},
 			"response": [
 				{
-					"id": "80eca445-fedc-410f-b544-d967b416c4a7",
+					"id": "8d7f24ea-c00f-4d20-b7d5-3095a23c7ee2",
 					"name": "OK",
 					"originalRequest": {
 						"method": "PUT",
@@ -1192,6 +1197,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -1235,7 +1241,7 @@
 		},
 		{
 			"name": "/knockknock",
-			"id": "e2088cf8-94c1-4d9d-a06d-f12a7f32ccbf",
+			"id": "d110727d-f4a4-45d5-9848-5379d2896701",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -1271,7 +1277,7 @@
 			},
 			"response": [
 				{
-					"id": "35a03b63-4b18-46c8-a211-b96a4b66af7a",
+					"id": "d83fc21e-5792-4a45-94b5-53bfee57cac3",
 					"name": "OK",
 					"originalRequest": {
 						"method": "GET",
@@ -1306,6 +1312,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -1343,7 +1350,7 @@
 		},
 		{
 			"name": "/comments",
-			"id": "862098e5-a523-4b6e-847b-dc5a592ff66a",
+			"id": "82d8887f-2395-4ef4-9ff2-5569a264c01a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -1403,7 +1410,7 @@
 			},
 			"response": [
 				{
-					"id": "53342a7a-7b2c-4957-8b02-42334d49a4dd",
+					"id": "64efa46e-01df-4ee2-9a2e-c533a8e05c43",
 					"name": "OK",
 					"originalRequest": {
 						"method": "POST",
@@ -1462,6 +1469,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -1502,7 +1510,7 @@
 					"body": ""
 				},
 				{
-					"id": "eaae4414-5aa2-402f-92c2-5c2953727c80",
+					"id": "9781819b-b42c-47c5-9165-362c469cda93",
 					"name": "Bad Request",
 					"originalRequest": {
 						"method": "POST",
@@ -1561,6 +1569,7 @@
 					"status": "Bad Request",
 					"code": 400,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -1598,7 +1607,7 @@
 		},
 		{
 			"name": "/comments",
-			"id": "3e42d9ff-be9b-48c4-a2fd-8c4ffb0a59fa",
+			"id": "d1b86e56-fdf8-41c4-888d-10633b2ebecc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -1654,7 +1663,7 @@
 			},
 			"response": [
 				{
-					"id": "4e56ff46-38a4-4630-a820-faae3a50d972",
+					"id": "0522c17b-53a9-4a04-91e0-ca082ef1a7a4",
 					"name": "OK",
 					"originalRequest": {
 						"method": "GET",
@@ -1709,6 +1718,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -1743,7 +1753,7 @@
 					"body": ""
 				},
 				{
-					"id": "8b28a9d7-ecca-4392-9f1a-1bb6026356cb",
+					"id": "ffd06d18-15e3-45c7-a064-a35fa591a74c",
 					"name": "Forbidden",
 					"originalRequest": {
 						"method": "GET",
@@ -1798,6 +1808,7 @@
 					"status": "Forbidden",
 					"code": 403,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -1832,7 +1843,7 @@
 					"body": ""
 				},
 				{
-					"id": "5a4fa522-2498-40b3-a674-852824c4b026",
+					"id": "53e8ba35-40c1-4f7f-af60-6e16408ee9d3",
 					"name": "Internal Server Error",
 					"originalRequest": {
 						"method": "GET",
@@ -1887,6 +1898,7 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -1924,7 +1936,7 @@
 		},
 		{
 			"name": "/comments/:commentId",
-			"id": "b58fb79f-f84d-45fb-bd17-a33330341f6b",
+			"id": "f1ce786c-b741-4b68-b29e-bae3c7621183",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -1992,7 +2004,7 @@
 			},
 			"response": [
 				{
-					"id": "a2a86395-5c42-4b87-b02a-ffc536ea2686",
+					"id": "58828747-c4fc-442d-bf1c-b30219ad8f77",
 					"name": "OK",
 					"originalRequest": {
 						"method": "PUT",
@@ -2059,6 +2071,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -2102,7 +2115,7 @@
 		},
 		{
 			"name": "/comments/:commentId",
-			"id": "3723eaec-855e-4345-a776-9b825ca7a914",
+			"id": "5107367c-e3a4-43bf-9ac9-48c10bac591f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -2166,7 +2179,7 @@
 			},
 			"response": [
 				{
-					"id": "331f5294-e54f-4ece-954d-83a6332814fe",
+					"id": "6737b2e8-a52d-4386-bdd1-afc7d7355a4e",
 					"name": "OK",
 					"originalRequest": {
 						"method": "DELETE",
@@ -2229,6 +2242,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -2272,7 +2286,7 @@
 		},
 		{
 			"name": "/webhook/comments",
-			"id": "51bf2510-b89c-41df-a3ac-6d5da94547b9",
+			"id": "cb1cf0e3-846b-4e84-a066-799f2e018067",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -2313,7 +2327,7 @@
 			},
 			"response": [
 				{
-					"id": "aff62c82-ace9-45dc-afd3-79a84cefa67c",
+					"id": "31c91856-f2ae-41e7-a017-2668a3ce5417",
 					"name": "OK",
 					"originalRequest": {
 						"method": "DELETE",
@@ -2353,6 +2367,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -2387,7 +2402,7 @@
 					"body": ""
 				},
 				{
-					"id": "7a2708bd-7e1e-4496-aa50-5e9e7b6fe707",
+					"id": "3a889098-a6c8-4048-87c9-dd2dd2fb0459",
 					"name": "Bad Request",
 					"originalRequest": {
 						"method": "DELETE",
@@ -2427,6 +2442,7 @@
 					"status": "Bad Request",
 					"code": 400,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -2461,7 +2477,7 @@
 					"body": ""
 				},
 				{
-					"id": "03ef41aa-715e-4b31-9bde-a4c3ea5bcf27",
+					"id": "11a153bc-f9b2-4a42-875c-7956dafbcb41",
 					"name": "Forbidden",
 					"originalRequest": {
 						"method": "DELETE",
@@ -2501,6 +2517,7 @@
 					"status": "Forbidden",
 					"code": 403,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -2538,7 +2555,7 @@
 		},
 		{
 			"name": "/webhook/comments",
-			"id": "ddead85f-1137-4dda-b84f-9c54d8ba2ac5",
+			"id": "c4528cc5-8527-4238-8bd5-08e309a83c43",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -2579,7 +2596,7 @@
 			},
 			"response": [
 				{
-					"id": "a48882a7-8845-4b50-821e-7a221b967f05",
+					"id": "00910e86-5f2a-418a-a97f-a66d2e519765",
 					"name": "OK",
 					"originalRequest": {
 						"method": "POST",
@@ -2619,6 +2636,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -2653,7 +2671,7 @@
 					"body": ""
 				},
 				{
-					"id": "743942ab-f5fa-4a2e-b33b-712dfcdf2e6e",
+					"id": "3dd45ec7-cd54-41db-a978-dfea5d7245ec",
 					"name": "Bad Request",
 					"originalRequest": {
 						"method": "POST",
@@ -2693,6 +2711,7 @@
 					"status": "Bad Request",
 					"code": 400,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -2727,7 +2746,7 @@
 					"body": ""
 				},
 				{
-					"id": "21c3c652-8344-49cd-abcd-ad69c3a43036",
+					"id": "837bd4dc-670c-43ce-bf6d-c8d9642b5671",
 					"name": "Forbidden",
 					"originalRequest": {
 						"method": "POST",
@@ -2767,6 +2786,7 @@
 					"status": "Forbidden",
 					"code": 403,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -2804,7 +2824,7 @@
 		},
 		{
 			"name": "/:entityType/:entityId/discussions/count",
-			"id": "be048f90-9003-47f9-8c49-1454905e94fa",
+			"id": "628d51f0-04a8-438a-bf8e-0a407b3b3cca",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -2919,7 +2939,7 @@
 			},
 			"response": [
 				{
-					"id": "25cbb554-ac29-418d-9d8f-2ec6803b154e",
+					"id": "61dc9b6a-3d97-46ff-857b-3e13d0365a20",
 					"name": "OK",
 					"originalRequest": {
 						"method": "GET",
@@ -3033,6 +3053,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
